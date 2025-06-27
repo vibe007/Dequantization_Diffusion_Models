@@ -41,6 +41,9 @@ python run_palette.py --doCN --logdir logs/ --data_mode="T" --max_val_img=20 --t
 ## Pretrained Models
 - We provide models trained on limited compute [*here*](https://uofi.app.box.com/s/v3twnv3p4kqy4a4b710vh1o204j6x6sf). 
 
+## Interactive Demo
+- We provide 2 interactive demo scripts: ```color.py``` for palette transferring and ```segment.py``` for object recoloring.
+- To use scripts with default settings simply run ```python color.py``` and ```python segment.py --share --server_port 8080``` 
 
 ## Example Images: Palette Transfer
 <p align="center">
